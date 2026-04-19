@@ -1,0 +1,8 @@
+Azure Cognitive Services Reflection
+
+1. Azure Document Intelligence / Form Recognizer field extraction issues
+I ran into extraction problems where some ID card and boarding pass fields came back as missing, null, or slightly inconsistent values, which caused JSON parsing and validation checks to fail. I resolved this by adding defensive field access, normalizing text and date values before comparison, and treating missing fields as validation failures instead of letting the pipeline crash.
+
+2. Custom Vision prediction and connection issues
+I also had trouble getting the luggage lighter detector to return reliable results because the prediction client depends on the correct endpoint, prediction key, project ID, and publish iteration name. I resolved this by verifying the Azure resource configuration, sending image bytes in the expected format, and adding checks for missing baggage files and low-confidence predictions so the validation pipeline could fail safely.
+

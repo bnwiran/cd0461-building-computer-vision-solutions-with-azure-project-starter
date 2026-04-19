@@ -1,0 +1,262 @@
+{
+    "sourceConnection": {
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTczYzRkNWIxOGJiYjZjNmQ3Y2Y2N2E0M2Q2MjlhOGViYTFhMWJiMzA4OGFiNDk4MDZhZTQ4YjI0YjZlNzA4MzUxMzUwM2ZiYzQwMTk5MmE3NWI5NTkyZWI4YjY5NjNiMjc5OTJkNzkwMDM1M2I0MzhhOGM1ZTZkYThiM2NkMGMwNTk5M2YzNmYwNDcxNzdmZjVhMjk3ODdkM2NjYzM1YmVlMmZlMGFlYWNlNzYyNmYzNmZjMWI3NGU0YTA3YWQ1MTU4ZDhlNjBiZmI2OGZhYzdhN2Q3M2IyOTM0OGJiZDE5NjRmZGJmZjc4ZTM4ZjA4Mzk5ZDUzZGU3MTRlYTIwZTMyMTRkYWFmY2NjNzM2Y2UwYmM5OTE4MzBhMzA5YjI5ZTZjMDQ4ZmU2OGFlYmM2ZGJkMzc4Y2NmOTgyMmJhOTlkYmJlOGI5NDRkMDYzMTY2OTY1NDU5ZTAxMGM1NmZiZDk1YmE1MTQ2OGVkZWJlNzJhNTVhYWI5ODIxYTBlNmMzZDgxMjc3NWNmNTk1NWE2MWIwMzE0MmYwZDZmYmY2YmEiLCJpdiI6ImI5NGNhMDc5MjJiMWU5YzcyZWFmNjI5NTEzYjQzYTg3In0="
+        },
+        "id": "uzcZ8n4dC",
+        "name": "boarding-passes-local",
+        "providerType": "localFileSystemProxy"
+    },
+    "name": "boarding-passes-5",
+    "apiUriBase": "https://boardingpasses.cognitiveservices.azure.com/",
+    "apiKey": {
+        "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDY0YjczZTczMThlNmEyY2RjNTA2ZTdkZjcxMThlZTM4MDU3MTc1MWJmZTA5Y2Y3YmE0NTJlYmNkNDIzN2FjOTEyOWU2MTJiMzk1ZThhNGZkODhmZDM5ZmMzYTkzYWQwNjE4YWU2Yjg0NDcyOWUyMTk5MzEyNGEwMGJkYzI4ZDE1M2Q0YmViNmQ1NTRlODQ5YjY1ODcwOWM3YTlkZjMxMmU2ZjM1YjllOTY2MWZhZDVjNGRjNWY5ZDIzMTdiNmQ0IiwiaXYiOiJkZmRlMjRkZGJmY2Q0NmI1NjBiZjZmM2YyNTFiYzgwMSJ9"
+    },
+    "folderPath": "",
+    "securityToken": "boarding-passes-5 Token",
+    "version": "2.1.0",
+    "id": "OxBpQlCHhw",
+    "tags": [
+        {
+            "name": "Passenger Name",
+            "color": "#CC543A",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "Carrier",
+            "color": "#7BA23F",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "Flight No",
+            "color": "#58B2DC",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "Class",
+            "color": "#FFB11B",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "From",
+            "color": "#2E5C6E",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "To",
+            "color": "#A96360",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "Gate",
+            "color": "#D7C4BB",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "Boarding Time",
+            "color": "#8F77B5",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "Date",
+            "color": "#EEA9A9",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "Seat",
+            "color": "#994639",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        }
+    ],
+    "assets": {
+        "8ecaf777f94bd652593b7836b8a7630020cefdb0200ba35dba2877a04eeace66": {
+            "id": "8ecaf777f94bd652593b7836b8a7630020cefdb0200ba35dba2877a04eeace66",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/boarding_pass_06_JENNIFER_PATEL.pdf",
+            "path": "file:C:/AI/Learning/Udacity/AI-Engineer%20using%20Microsoft%20Azure/Projects/cd0461-building-computer-vision-solutions-with-azure-project-starter/starter/my_submission/step_2/boarding-passes/boarding_pass_06_JENNIFER_PATEL.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "2c22eef8524c03f97994e055dbfabb1b72c5e8a5904aa5135397695aa82b1f0d": {
+            "id": "2c22eef8524c03f97994e055dbfabb1b72c5e8a5904aa5135397695aa82b1f0d",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/boarding_pass_01_JAMES_MITCHELL.pdf",
+            "path": "file:C:/AI/Learning/Udacity/AI-Engineer%20using%20Microsoft%20Azure/Projects/cd0461-building-computer-vision-solutions-with-azure-project-starter/starter/my_submission/step_2/boarding-passes/boarding_pass_01_JAMES_MITCHELL.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "2c3c71a9c5a38bd1a510141d189773fc6ea62adc3fdb5bcf9929dcbaf510e7af": {
+            "id": "2c3c71a9c5a38bd1a510141d189773fc6ea62adc3fdb5bcf9929dcbaf510e7af",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/boarding_pass_03_ROBERT_GARCIA.pdf",
+            "path": "file:C:/AI/Learning/Udacity/AI-Engineer%20using%20Microsoft%20Azure/Projects/cd0461-building-computer-vision-solutions-with-azure-project-starter/starter/my_submission/step_2/boarding-passes/boarding_pass_03_ROBERT_GARCIA.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "09a42fbdb4c646996c22b857ca5dcecf1b86217857376ab5196cee6ab2bbd7c6": {
+            "id": "09a42fbdb4c646996c22b857ca5dcecf1b86217857376ab5196cee6ab2bbd7c6",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/boarding_pass_04_EMILY_THOMPSON.pdf",
+            "path": "file:C:/AI/Learning/Udacity/AI-Engineer%20using%20Microsoft%20Azure/Projects/cd0461-building-computer-vision-solutions-with-azure-project-starter/starter/my_submission/step_2/boarding-passes/boarding_pass_04_EMILY_THOMPSON.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "27be45ff9eae9ec211ed627c0c94334d1f307da778baf141b6fb71e3f7326916": {
+            "id": "27be45ff9eae9ec211ed627c0c94334d1f307da778baf141b6fb71e3f7326916",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/boarding_pass_08_AMANDA_ROSS.pdf",
+            "path": "file:C:/AI/Learning/Udacity/AI-Engineer%20using%20Microsoft%20Azure/Projects/cd0461-building-computer-vision-solutions-with-azure-project-starter/starter/my_submission/step_2/boarding-passes/boarding_pass_08_AMANDA_ROSS.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "444e1f3dde3f7e7566a28c25451e61cc5cb22b29f5220f897315dcc74103ffc4": {
+            "id": "444e1f3dde3f7e7566a28c25451e61cc5cb22b29f5220f897315dcc74103ffc4",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/boarding_pass_09_CARLOS_RAMIREZ.pdf",
+            "path": "file:C:/AI/Learning/Udacity/AI-Engineer%20using%20Microsoft%20Azure/Projects/cd0461-building-computer-vision-solutions-with-azure-project-starter/starter/my_submission/step_2/boarding-passes/boarding_pass_09_CARLOS_RAMIREZ.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "175929aefea1f587b402a8fb50bfd846444b8db5163ddbd6ca8b477f048b7471": {
+            "id": "175929aefea1f587b402a8fb50bfd846444b8db5163ddbd6ca8b477f048b7471",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/boarding_pass_02_SARAH_CHEN.pdf",
+            "path": "file:C:/AI/Learning/Udacity/AI-Engineer%20using%20Microsoft%20Azure/Projects/cd0461-building-computer-vision-solutions-with-azure-project-starter/starter/my_submission/step_2/boarding-passes/boarding_pass_02_SARAH_CHEN.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "a6069ff07de265d7fe284587bcb4941c690e44ea33f4805a6743adfad84d9257": {
+            "id": "a6069ff07de265d7fe284587bcb4941c690e44ea33f4805a6743adfad84d9257",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/boarding_pass_05_MICHAEL_JOHNSON.pdf",
+            "path": "file:C:/AI/Learning/Udacity/AI-Engineer%20using%20Microsoft%20Azure/Projects/cd0461-building-computer-vision-solutions-with-azure-project-starter/starter/my_submission/step_2/boarding-passes/boarding_pass_05_MICHAEL_JOHNSON.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "fe828d4d60c092ae9fbef42925ef3f18153ee9d36c67d32e75da89e609d3548d": {
+            "id": "fe828d4d60c092ae9fbef42925ef3f18153ee9d36c67d32e75da89e609d3548d",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/boarding_pass_07_DAVID_WONG.pdf",
+            "path": "file:C:/AI/Learning/Udacity/AI-Engineer%20using%20Microsoft%20Azure/Projects/cd0461-building-computer-vision-solutions-with-azure-project-starter/starter/my_submission/step_2/boarding-passes/boarding_pass_07_DAVID_WONG.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "6a6f98ec837473892039429e527ea4a24b119cfec7ca9348cfea54d47db048f0": {
+            "id": "6a6f98ec837473892039429e527ea4a24b119cfec7ca9348cfea54d47db048f0",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/boarding_pass_10_LISA_NAKAMURA.pdf",
+            "path": "file:C:/AI/Learning/Udacity/AI-Engineer%20using%20Microsoft%20Azure/Projects/cd0461-building-computer-vision-solutions-with-azure-project-starter/starter/my_submission/step_2/boarding-passes/boarding_pass_10_LISA_NAKAMURA.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        }
+    },
+    "lastVisitedAssetId": "6a6f98ec837473892039429e527ea4a24b119cfec7ca9348cfea54d47db048f0",
+    "recentModelRecords": [
+        {
+            "modelInfo": {
+                "modelId": "00e35ad0-d9da-42b2-bf38-34c217c2da0a",
+                "createdDateTime": "2026-04-05T17:39:38Z",
+                "modelName": "boarding-passes",
+                "isComposed": false
+            },
+            "averageAccuracy": 0.955,
+            "accuracies": {
+                "Baggage": 0.8,
+                "Boarding Time": 0.995,
+                "Carrier": 0.995,
+                "Class": 0.995,
+                "Date": 0.7,
+                "Flight No": 0.995,
+                "From": 0.995,
+                "Gate": 0.995,
+                "Passenger Name": 0.995,
+                "Seat": 0.995,
+                "To": 0.995
+            },
+            "isComposed": false
+        }
+    ],
+    "trainRecord": {
+        "modelInfo": {
+            "modelId": "00e35ad0-d9da-42b2-bf38-34c217c2da0a",
+            "createdDateTime": "2026-04-05T17:39:38Z",
+            "modelName": "boarding-passes",
+            "isComposed": false
+        },
+        "averageAccuracy": 0.955,
+        "accuracies": {
+            "Baggage": 0.8,
+            "Boarding Time": 0.995,
+            "Carrier": 0.995,
+            "Class": 0.995,
+            "Date": 0.7,
+            "Flight No": 0.995,
+            "From": 0.995,
+            "Gate": 0.995,
+            "Passenger Name": 0.995,
+            "Seat": 0.995,
+            "To": 0.995
+        }
+    },
+    "predictModelId": "00e35ad0-d9da-42b2-bf38-34c217c2da0a"
+}
